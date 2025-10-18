@@ -11,7 +11,7 @@ git clone https://github.com/Emeey-Lanr/hng_frontend-stage0.git
 cd hng_frontend-stage0 
 ```
 ### Live Demo
-[profile card](https://hng-frontend-stage0.vercel.app/)
+[https://hng-frontend-stage0.vercel.app/](https://hng-frontend-stage0.vercel.app/)
 
 ### Github Repo
 [https://github.com/Emeey-Lanr/hng_frontend-stage0/](https://github.com/Emeey-Lanr/hng_frontend-stage0/)

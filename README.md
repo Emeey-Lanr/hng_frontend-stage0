@@ -13,6 +13,10 @@ cd hng_frontend-stage0
 ### Live Demo
 [profile card](https://hng-frontend-stage0.vercel.app/)
 
+### Github Repo
+[https://github.com/Emeey-Lanr/hng_frontend-stage0/](https://github.com/Emeey-Lanr/hng_frontend-stage0/)
+
+
 ### Testing
 A manual test script is included inside `script.js`.
 

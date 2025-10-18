@@ -53,7 +53,7 @@ figure img{
 }
 
 [data-testid="test-user-name"] span {
-    display: block;
+    display: flex;
     margin-left: 100px;
 }
 

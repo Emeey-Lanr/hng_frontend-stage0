@@ -1,12 +1,15 @@
 ## HNG FRONTEND TASK 0
-A profile card
+A profile card Component
 
 ### To Run Locally
 
 ```bash
-git clone url
+git clone https://github.com/Emeey-Lanr/hng_frontend-stage0.git
 ```
 
 ``` bash
-cd repo 
+cd hng_frontend-stage0 
 ```
+
+### live Demo
+#### []

@@ -63,7 +63,7 @@ figure img{
     line-height: 28px;
 }
 
-[data-testid="test-user-time"]{
+.time{
     display: block;
     margin-top: 16px;
     font-weight: 600;

@@ -12,6 +12,9 @@ cd hng_frontend-stage0
 ```
 
 
+##Live Demo
+[Link]
+
 ### Testing
 A manual test script is included inside `script.js`.
 

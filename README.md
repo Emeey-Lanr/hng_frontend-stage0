@@ -20,9 +20,11 @@ cd hng_frontend-stage0
 
 
 ### Pages
--Profile Card Page /
--Contact Us Page /contact-us.html
--About Me Page /about-me.html
+- Profile Card Page /
+
+- Contact Us Page /contact-us.html
+
+- About Me Page /about-me.html
 
 
 ### Testing for /

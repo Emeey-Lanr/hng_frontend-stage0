@@ -13,14 +13,26 @@ cd hng_frontend-stage0
 ### Live Demo
 [https://hng-frontend-stage0.vercel.app/](https://hng-frontend-stage0.vercel.app/)
 
+
+
 ### Github Repo
 [https://github.com/Emeey-Lanr/hng_frontend-stage0/](https://github.com/Emeey-Lanr/hng_frontend-stage0/)
 
 
-##Live Demo
-[Link]
+### Pages
+##### /
+#### /contact-us.html
+#### /about-me.html
 
-### Testing
+
+### Testing for /
 A manual test script is included inside `script.js`.
+
+
+## Test Note for /contact 
+
+
+## Test for /about-me 
+A manual test script is included inside `about-me.js`.
 
 

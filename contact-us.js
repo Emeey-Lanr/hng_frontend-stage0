@@ -40,6 +40,8 @@ const submitForm = (event) => {
     if (!isError) {
         successMessage.textContent = "Submitted Succesfully"
         successMessage.classList.remove("errormessage")
+    } else {
+          successMessage.classList.add("errormessage");
     }
     
 }

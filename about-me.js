@@ -3,8 +3,8 @@ const test = () => {
   let ids = [
     "test-about-page",
     "test-about-bio",
-    "test-user-bio",
-    "test-user-goals",
+    "test-about-bio",
+    "test-about-goals",
     "test-about-confidence",
     "test-about-future-note",
     "test-about-extra",

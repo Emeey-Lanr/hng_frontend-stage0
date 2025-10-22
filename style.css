@@ -18,7 +18,7 @@ body{
     justify-content: space-between;
 }
 .navbar div a:hover{
-    font-weight: 600;
+    font-weight: 600 ;
 }
 
 [data-testid="test-profile-card"]{

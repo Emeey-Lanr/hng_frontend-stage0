@@ -19,8 +19,8 @@
              <input id="fullname" placeholder="Enter full name" data-testid="test-contact-name" required type="text">
           
               <label for="email">Email</label>
-            <input id="email" placeholder="Enter a valid email" data-testid="test-contact-email" type="email">
-              <span  data-testid="test-contact-error-email"></span>
+            <input id="email" aria-describedby="email-error" placeholder="Enter a valid email" data-testid="test-contact-email" type="email">
+              <span id="email-error"  data-testid="test-contact-error-email"></span>
        
              
                  <label for="subject">Subject</label>
@@ -28,11 +28,11 @@
             
              <div class="textarea_div">
                 <label for="message">Message</label>
-                <textarea  placeholder="Enter your message" id="message" required></textarea>
-                <span id="message_error">Message must be a least 10 characters</span>
+                <textarea  aria-describedby="message-length"  placeholder="Enter your message" id="message" required></textarea>
+                <span  id="message_error">Message must be a least 10 characters</span>
              </div>
              <div class="btn_div">
-                <button type="submit">Submit</button>
+                <button  type="submit">Submit</button>
              </div>
 
         </form>

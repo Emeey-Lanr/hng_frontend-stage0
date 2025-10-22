@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="/contact-us.css">
 </head>
 <body>
+
+      <nav class="navbar">
+                <a href="/index.html">Profile</a>
+
+                <div>
+                    <a href="/contact-us.html">Contact Us</a>
+                    <a href="/about-me.html">About Me</a>
+                </div>
+            </nav>
+    
      <main>
         <h2>Contact Us</h2>
       
@@ -20,16 +30,16 @@
           
               <label for="email">Email</label>
             <input id="email" aria-describedby="email-error" placeholder="Enter a valid email" data-testid="test-contact-email" type="email">
-              <span id="email-error"  data-testid="test-contact-error-email"></span>
+              <span style="margin-bottom: 8px;" id="email-error"  data-testid="test-contact-error-email"></span>
        
              
                  <label for="subject">Subject</label>
-            <input id="subject" data-testid="test-contact-subject" placeholder="Enter subject" type="text" required>
+            <input  id="subject" data-testid="test-contact-subject" placeholder="Enter subject" type="text" required>
             
              <div class="textarea_div">
                 <label for="message">Message</label>
-                <textarea  aria-describedby="message-length"  placeholder="Enter your message" id="message" required></textarea>
-                <span  id="message_error">Message must be a least 10 characters</span>
+                <textarea data-testid="test-contact-message"  aria-describedby="textarea-message"  placeholder="Enter your message" id="message" required></textarea>
+                <span  id="textarea-message">Message must be a least 10 characters</span>
              </div>
              <div class="btn_div">
                 <button  type="submit">Submit</button>

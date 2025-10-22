@@ -5,7 +5,7 @@ let emailError = document.querySelector(
   `[data-testid="test-contact-error-email"]`
 )
 
-let messageError = document.querySelector("#message_error")
+let messageError = document.querySelector("#textarea-message")
 
 const submitForm = (event) => {
     event.preventDefault()
@@ -14,26 +14,38 @@ const submitForm = (event) => {
     
     let isError = false
 
-    if (email == "" || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
-        emailError.textContent = "Invalid Email"
-        isError = true
-        
-    } else {
-        emailError.textContent = "Valid email"
-        emailError.style.color = "#81fca0";
+     
 
-
-      
+    const emailFunc = (color, message, status) => {
+          document.querySelector("#email").style.marginBottom = "0";
+        emailError.style.marginBottom = "12px";
+        emailError.style.color = `${color}`;
+        emailError.textContent = `${message}`;
+         isError = status;
     }
 
-    console.log(messageError, message)
-    if (message.trim().length < 10) {
-        messageError.style.color = "#fc8181";
-        isError = true
-
+    if (email == "" || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+        emailError.textContent = "Invalid Email"
+       
+        emailFunc("#fc8181", "Invalid email", true);
+        
     } else {
-        messageError.style.color = "#81fca0";
-      
+        emailFunc("#81fca0", "Valid email", false);
+            
+    }
+
+    
+    function textArea(color, status){
+          messageError.style.color = `${color}`;
+          isError = status;
+
+    }
+ 
+    if (message.trim().length < 10) {
+        textArea('#fc8181', true)
+    
+    } else {
+        textArea("#81fca0", false);      
     }
 
      

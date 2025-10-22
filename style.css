@@ -16,8 +16,10 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    height: 40px;
+    align-items: center;
 }
-.navbar div a:hover{
+.navbar a:hover{
     font-weight: 600 ;
 }
 

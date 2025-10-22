@@ -14,22 +14,21 @@
               <p class="errormessage" data-testid="test-contact-success" >
             
         </p>
-            <div>
+           
                <label for="fullname">Full Name</label>
              <input id="fullname" placeholder="Enter full name" data-testid="test-contact-name" required type="text">
-            </div>
-             <div>
+          
               <label for="email">Email</label>
             <input id="email" placeholder="Enter a valid email" data-testid="test-contact-email" type="email">
               <span  data-testid="test-contact-error-email"></span>
-        </div>
-             <div>
+       
+             
                  <label for="subject">Subject</label>
-            <input id="subject" data-testid="test-contact-subject" type="text" required>
-             </div>
+            <input id="subject" data-testid="test-contact-subject" placeholder="Enter subject" type="text" required>
+            
              <div class="textarea_div">
                 <label for="message">Message</label>
-                <textarea  placeholder="Enter your message" id="message"></textarea>
+                <textarea  placeholder="Enter your message" id="message" required></textarea>
                 <span id="message_error">Message must be a least 10 characters</span>
              </div>
              <div class="btn_div">

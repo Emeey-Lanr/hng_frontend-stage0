@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/contact-us.css">
+</head>
+<body>
+     <main>
+        <h2>Contact Us</h2>
+      
+        <form  onsubmit="return submitForm(event)">
+              <p class="errormessage" data-testid="test-contact-success" >
+            
+        </p>
+            <div>
+               <label for="fullname">Full Name</label>
+             <input id="fullname" placeholder="Enter full name" data-testid="test-contact-name" required type="text">
+            </div>
+             <div>
+              <label for="email">Email</label>
+            <input id="email" placeholder="Enter a valid email" data-testid="test-contact-email" type="email">
+              <span  data-testid="test-contact-error-email"></span>
+        </div>
+             <div>
+                 <label for="subject">Subject</label>
+            <input id="subject" data-testid="test-contact-subject" type="text" required>
+             </div>
+             <div class="textarea_div">
+                <label for="message">Message</label>
+                <textarea  placeholder="Enter your message" id="message"></textarea>
+                <span id="message_error">Message must be a least 10 characters</span>
+             </div>
+             <div class="btn_div">
+                <button type="submit">Submit</button>
+             </div>
+
+        </form>
+     </main>
+
+     <script src="contact-us.js"></script>
+</body>
+</html>

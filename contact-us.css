@@ -1,0 +1,101 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Courier New', Courier, monospace;
+ background: hsl(0, 0%, 10%);
+ color: #dbdbdb;
+}
+body{
+    padding-top: 40px;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #676767;
+    padding: 16px;
+}
+
+h2{
+ padding-bottom: 16px;
+}
+
+div{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    font-size: 14px;
+   padding-bottom: 12px;
+   font-weight: 700;
+
+}
+
+p{
+    width: 100%;
+    padding: 16px;
+    background: #282828;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: 1px solid #a6a6a6;
+  
+}
+
+.errormessage{
+  display: none;
+}
+input{
+     display: block;
+    border: 0.5px solid #676767;
+    height: 40px;
+    width: 100%;
+    padding-left: 8px;
+    padding-left: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: 4px solid #474747a3;
+}
+input::placeholder{
+    font-size: 12px;
+    color: #5c5c5c;
+}
+[data-testid="test-contact-error-email"]{
+    font-size: 12px;
+    color: #fc8181 ;
+
+}
+textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 80px;
+    overflow: hidden;
+     padding-left: 8px;
+    padding-left: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+textarea:focus{
+    outline: 4px solid #474747a3;
+}
+
+.textarea_div span{
+ display: block;
+ font-size: 12px;
+ font-weight: bold;
+ padding-top: 8px;
+}
+
+.btn_div{
+  padding-top: 16px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #a6a6a6;
+
+
+}
+
